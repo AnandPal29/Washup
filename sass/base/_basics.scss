@@ -1,0 +1,22 @@
+$color-dark-1:#222831;
+$color-dark-2:#393e46;
+$color-primary-light:#30e3ca;
+$color-primary:#00adb5;
+$color-primary-dark:#11999e;
+$color-light-1:#eeeeee;
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+}

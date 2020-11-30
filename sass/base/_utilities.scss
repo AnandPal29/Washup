@@ -1,0 +1,21 @@
+.u-margintop-medium{
+    margin-top:4rem;
+}
+
+.center{
+    text-align: center;
+}
+
+.color-dark{
+    color:$color-dark-1;
+    font-size:2rem;
+}
+
+.list-items{
+    margin-left:4rem;
+    font-size:1.5rem;
+   
+    &:not(:last-child){
+        margin-bottom:2rem;
+    }
+}

@@ -1,0 +1,41 @@
+main{
+    width:110rem;
+    margin:0rem auto;
+    position: relative;
+}
+
+.section-home{
+
+    background-color: $color-dark-1;
+    height:90vh;
+    padding:3.5rem;
+
+    display: flex;
+    align-items: center;
+
+    &__left{
+        width:50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__right{
+        width:50%;
+        padding:2rem;
+    }
+
+
+    &__img{
+        width:90%;
+    
+        outline:10px solid $color-primary;
+        outline-offset:10px;
+
+        transition: all .5s;
+
+        &:hover{
+            outline-offset:20px;
+            width:87%;
+        }
+    }
+}

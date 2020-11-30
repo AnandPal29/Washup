@@ -1,0 +1,22 @@
+.contact-section{
+    background-color: $color-dark-1;
+    padding:4rem 2.5rem;
+    padding-top:8rem;
+    display: flex;
+    clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
+    margin-top:-9rem;
+
+    &__left{
+        width:50%;
+        margin:2rem;
+    }
+
+    &__right{
+        width:50%;
+        margin:2rem;
+    }
+
+    &__img{
+        width:30%;
+    }
+}
